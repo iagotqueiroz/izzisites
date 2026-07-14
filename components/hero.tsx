@@ -22,7 +22,7 @@ export function Hero() {
           <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
             IzziSites — Sua empresa na internet
           </span>
-          <h1 className="font-display text-4xl font-extrabold leading-tight tracking-tight text-balance sm:text-5xl lg:text-6xl">
+          <h1 className="font-display text-3xl font-extrabold leading-tight tracking-tight text-balance sm:text-4xl lg:text-[2.75rem]">
             Sua empresa merece ser <span className="text-primary">encontrada, lembrada</span> e escolhida.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground text-pretty">
@@ -39,16 +39,16 @@ export function Hero() {
             ))}
           </ul>
 
-          <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+          <div className="mt-10 flex w-full flex-col gap-3 sm:flex-row">
             <Button
               render={<a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" />}
               size="lg"
-              className="font-semibold"
+              className="h-12 w-full px-7 text-base font-semibold sm:w-auto"
             >
               Quero meu site
-              <ArrowRight className="h-4 w-4" />
+              <ArrowRight className="h-5 w-5" />
             </Button>
-            <Button render={<a href="#planos" />} size="lg" variant="outline" className="font-semibold">
+            <Button render={<a href="#planos" />} size="lg" variant="outline" className="h-12 w-full px-7 text-base font-semibold sm:w-auto">
               Ver planos
             </Button>
           </div>
